@@ -1,0 +1,8 @@
+[Unit]
+Description=100DaysOfCode Notification
+
+[Service]
+Type=simple
+ExecStart=/bin/sh /path/to/notifier.sh
+Environment=DISPLAY=:0
+

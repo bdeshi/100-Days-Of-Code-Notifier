@@ -1,4 +1,5 @@
-#!env python
+#!env python3
+# license: see LICENSE
 
 import re
 import subprocess
